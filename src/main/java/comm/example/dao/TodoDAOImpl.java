@@ -28,7 +28,7 @@ public class TodoDAOImpl implements TodoDAO {
     @Override
     @Transactional
     public List<Todo> getTodos() {
-        Query query = entityManager.createQuery("from Customer");
+        Query query = entityManager.createQuery("from Todo");
         return query.getResultList();
     }
 
