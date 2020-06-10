@@ -1,0 +1,13 @@
+
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/view/
+  datasource:
+    url: jdbc:mysql://localhost:3306/hr
+    username: Saquib33
+    password: Root1234
+
+server:
+  port: 4040
